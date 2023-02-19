@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.faf8e4fc.css",
+    "main.js": "/my-portfolio/static/js/main.b852ee07.js",
+    "static/media/petly.png": "/my-portfolio/static/media/petly.8839335b2afffc6489e2.png",
+    "static/media/phonebook-big.png": "/my-portfolio/static/media/phonebook-big.e3ac6013d4335b6adb98.png",
+    "static/media/phonebook-home.png": "/my-portfolio/static/media/phonebook-home.3391149f31fdba718d5e.png",
+    "static/media/kinopoisk-big2.png": "/my-portfolio/static/media/kinopoisk-big2.4b47cb7c69b03540c089.png",
+    "static/media/kinopoisk.png": "/my-portfolio/static/media/kinopoisk.ea53ef3b0cb5ba8e5e37.png",
+    "static/media/web.png": "/my-portfolio/static/media/web.7eca0626a07616fe1668.png",
+    "static/media/ice.png": "/my-portfolio/static/media/ice.86affe7ba8d1c340a290.png",
+    "static/media/web-big2.png": "/my-portfolio/static/media/web-big2.badc3fc129f8818ebd16.png",
+    "static/media/coctails.png": "/my-portfolio/static/media/coctails.71feb1881c6dafc5c35d.png",
+    "static/media/ice-big.png": "/my-portfolio/static/media/ice-big.c7d1dc2fc0cba4d01072.png",
+    "static/media/coctails-big.png": "/my-portfolio/static/media/coctails-big.85a7c0b2103a7f26dd59.png",
+    "static/media/bg2.png": "/my-portfolio/static/media/bg2.c01fd2fe85d0fcd2db36.png",
+    "static/media/sun.svg": "/my-portfolio/static/media/sun.f8606845ee97bee21c3bc95b2dec3866.svg",
+    "static/media/moon.svg": "/my-portfolio/static/media/moon.312bed9230c94183d589bcc499993093.svg",
+    "static/media/git.svg": "/my-portfolio/static/media/git.a5541850a2a6843f34467a91657cc39d.svg",
+    "static/media/gitHub-black.svg": "/my-portfolio/static/media/gitHub-black.879a08487a26f06ac21248a96c866696.svg",
+    "static/media/insta.svg": "/my-portfolio/static/media/insta.6b0ce32a930db2eac1c21600458a8cd0.svg",
+    "static/media/link.svg": "/my-portfolio/static/media/link.55523f62797ddb51e960322dd47e5636.svg",
+    "index.html": "/my-portfolio/index.html",
+    "main.faf8e4fc.css.map": "/my-portfolio/static/css/main.faf8e4fc.css.map",
+    "main.b852ee07.js.map": "/my-portfolio/static/js/main.b852ee07.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.faf8e4fc.css",
+    "static/js/main.b852ee07.js"
+  ]
+}
