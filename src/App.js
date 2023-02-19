@@ -1,5 +1,5 @@
 import "./styles/main.css";
-import { Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
@@ -13,18 +13,16 @@ import ScrollToTop from "./utils/scrollToTop";
 function App() {
   return (
     <div className="App">
-      <Router>
-        <ScrollToTop />
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/project/:id" element={<Project />} />
-          <Route path="/contacts" element={<Contacts />} />
-          <Route path="*" element={<Home />} />
-        </Routes>
-        <Footer />
-      </Router>
+      <ScrollToTop />
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/project/:id" element={<Project />} />
+        <Route path="/contacts" element={<Contacts />} />
+        <Route path="*" element={<Home />} />
+      </Routes>
+      <Footer />
     </div>
   );
 }
