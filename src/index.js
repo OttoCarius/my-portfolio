@@ -5,11 +5,7 @@ import App from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter
-    forceRefresh={"optionalBool"}
-    getUserConfirmation={"optionalFunc"}
-    keyLength={"optionalNumber"}
-  >
+  <BrowserRouter>
     <App />
   </BrowserRouter>
 );
