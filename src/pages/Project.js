@@ -1,42 +1,47 @@
-import {useParams} from "react-router-dom";
+import { useParams } from "react-router-dom";
 import BtnGitHub from "../components/btnGitHub/BtnGitHub";
-import {projects} from "./../helpers/projectsList"
+import { projects } from "./../helpers/projectsList";
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
 const Project = () => {
-	const {id} = useParams();
-	const project = projects[id];
+  const { id } = useParams();
+  const project = projects[id];
 
-    return (
-		<main className="section">
-			<motion.div
-          initial={{ scale: 0, opacity: 0 }}
-          animate={{ scale: 1, opacity: 1 }}
-          transition={{ duration: 1.3, delay: 0.5 }}
-        >
-			<div className="container">
-				<div className="project-details">
-					<h1 className="title-1">{project.title}</h1>
+  return (
+    <main className="section">
+      <div className="container">
+        <button className="btn-back">
+          <Link to={"/projects"} className="link-back">
+            Назад
+          </Link>
+        </button>
+      </div>
+      <motion.div
+        initial={{ scale: 0, opacity: 0 }}
+        animate={{ scale: 1, opacity: 1 }}
+        transition={{ duration: 1.3, delay: 0.5 }}
+      >
+        <div className="container">
+          <div className="project-details">
+            <h1 className="title-1">{project.title}</h1>
 
-					<img
-						src={project.imgBig}
-						alt={project.title}
-						className="project-details__cover"
-					/>
+            <img
+              src={project.imgBig}
+              alt={project.title}
+              className="project-details__cover"
+            />
 
-					<div className="project-details__desc">
-						<p>Skills: {project.skills}</p>
-					</div>
+            <div className="project-details__desc">
+              <p>Skills: {project.skills}</p>
+            </div>
 
-				
-			<BtnGitHub link={project.gitHubLink}
-                target="blank" />
-				
-				</div>
-			</div>
-			</motion.div>
-		</main>
-	);
-}
+            <BtnGitHub link={project.gitHubLink} target="blank" />
+          </div>
+        </div>
+      </motion.div>
+    </main>
+  );
+};
 
 export default Project;
