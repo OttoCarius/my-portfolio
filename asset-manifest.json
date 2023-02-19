@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.faf8e4fc.css",
-    "main.js": "/my-portfolio/static/js/main.b852ee07.js",
+    "main.css": "/my-portfolio/static/css/main.4f4948ba.css",
+    "main.js": "/my-portfolio/static/js/main.547ffb9e.js",
     "static/media/petly.png": "/my-portfolio/static/media/petly.8839335b2afffc6489e2.png",
     "static/media/phonebook-big.png": "/my-portfolio/static/media/phonebook-big.e3ac6013d4335b6adb98.png",
     "static/media/phonebook-home.png": "/my-portfolio/static/media/phonebook-home.3391149f31fdba718d5e.png",
@@ -21,11 +21,11 @@
     "static/media/insta.svg": "/my-portfolio/static/media/insta.6b0ce32a930db2eac1c21600458a8cd0.svg",
     "static/media/link.svg": "/my-portfolio/static/media/link.55523f62797ddb51e960322dd47e5636.svg",
     "index.html": "/my-portfolio/index.html",
-    "main.faf8e4fc.css.map": "/my-portfolio/static/css/main.faf8e4fc.css.map",
-    "main.b852ee07.js.map": "/my-portfolio/static/js/main.b852ee07.js.map"
+    "main.4f4948ba.css.map": "/my-portfolio/static/css/main.4f4948ba.css.map",
+    "main.547ffb9e.js.map": "/my-portfolio/static/js/main.547ffb9e.js.map"
   },
   "entrypoints": [
-    "static/css/main.faf8e4fc.css",
-    "static/js/main.b852ee07.js"
+    "static/css/main.4f4948ba.css",
+    "static/js/main.547ffb9e.js"
   ]
 }
