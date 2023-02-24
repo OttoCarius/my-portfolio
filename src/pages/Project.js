@@ -9,7 +9,7 @@ const Project = () => {
   const project = projects[id];
 
   return (
-    <main className="section">
+    <div className="section">
       <div className="container">
         <button className="btn-back">
           <Link to={"/projects"} className="link-back">
@@ -40,7 +40,7 @@ const Project = () => {
           </div>
         </div>
       </motion.div>
-    </main>
+    </div>
   );
 };
 

@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Projects = () => {
   return (
-    <main className="section">
+    <div className="section">
       <div className="container">
         <motion.ul
           initial={{ scale: 0, opacity: 0 }}
@@ -32,7 +32,7 @@ const Projects = () => {
           </ul>
         </motion.ul>
       </div>
-    </main>
+    </div>
   );
 };
 

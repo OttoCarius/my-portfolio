@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const Contacts = () => {
   return (
-    <main className="section">
+    <div className="section">
       <div className="container">
         <motion.div
           initial={{ scale: 0, opacity: 0 }}
@@ -50,7 +50,7 @@ const Contacts = () => {
           </li>
         </ul>
       </div>
-    </main>
+    </div>
   );
 };
 
