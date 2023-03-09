@@ -22,6 +22,10 @@ import artB from "./../img/art-blog-big.png";
 import pic from "./../img/search-find.png";
 import picB from "./../img/search-pic-big.png";
 
+import yum from "./../img/yum.png";
+import yumB from "./../img/yum.png";
+
+
 const projects = [
   {
     title: "Web-Studio",
@@ -67,6 +71,13 @@ const projects = [
     img: phonebook,
     imgBig: phonebookB,
     gitHubLink: "https://github.com/OttoCarius/phonebook.git",
+  },
+  {
+    title: "Yum-yum-Recepies",
+    skills: "HTML5, CSS, React, Git, Styled-components, Router-Dom, API, spoonacular API, Netlify",
+    img: yum,
+    imgBig: yumB,
+    gitHubLink: "https://github.com/OttoCarius/yum-yum-recipes.git",
   },
   {
     title: "Kinopoisk",
