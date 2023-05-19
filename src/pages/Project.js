@@ -3,6 +3,7 @@ import BtnGitHub from "../components/btnGitHub/BtnGitHub";
 import { projects } from "./../helpers/projectsList";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import BtnLive from "../components/btnGitLiveLInk/BtnLive";
 
 const Project = () => {
   const { id } = useParams();
@@ -13,7 +14,7 @@ const Project = () => {
       <div className="container">
         <button className="btn-back">
           <Link to={"/projects"} className="link-back">
-            Назад
+            Back
           </Link>
         </button>
       </div>
@@ -35,8 +36,10 @@ const Project = () => {
             <div className="project-details__desc">
               <p>Skills: {project.skills}</p>
             </div>
-
-            <BtnGitHub link={project.gitHubLink} target="blank" />
+            <div className="btns-wrap">
+              <BtnGitHub link={project.gitHubLink} target="blank" />
+              <BtnLive link={project.gitLiveLink} target="blank" />
+            </div>
           </div>
         </div>
       </motion.div>
