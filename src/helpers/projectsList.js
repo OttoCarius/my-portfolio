@@ -50,7 +50,7 @@ const projects = [
       "React, Redux, React-router-dom, Styled-components, responsive, Framer-Motion, react-credit-card-2, Netlify",
     img: org,
     imgBig: orgB,
-    gitHubLink: "https://github.com/OttoCarius/blog-frontend.git",
+    gitHubLink: "https://github.com/OttoCarius/organick",
     gitLiveLink: "https://organick-products.netlify.app/",
   },
   {
